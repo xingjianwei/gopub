@@ -23,7 +23,7 @@
 
 ## 下载地址
 
-- [https://github.com/lisijie/gopub/releases](https://github.com/lisijie/gopub/releases)
+- [https://github.com/xingjianwei/gopub/releases](https://github.com/xingjianwei/gopub/releases)
 
 ## 安装
 
@@ -40,7 +40,9 @@
 ## 使用docker运行
 
 在源码目录使用docker-compose启动即可。
-
+    $ CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build
+	$ sh pack.sh
+	$ mv gopub--linux-amd64.tar.gz docker/
 	$ docker-compose up
 
 ## 界面截图

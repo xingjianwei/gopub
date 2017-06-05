@@ -2,8 +2,8 @@ package mail
 
 import (
 	"github.com/astaxie/beego"
-	"github.com/lisijie/gomail"
-	"github.com/lisijie/gopub/app/libs"
+	"github.com/xingjianwei/gomail"
+	"github.com/xingjianwei/gopub/app/libs"
 	"strings"
 )
 

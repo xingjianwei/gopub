@@ -3,9 +3,9 @@ package controllers
 import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/validation"
-	"github.com/lisijie/gopub/app/entity"
-	"github.com/lisijie/gopub/app/libs"
-	"github.com/lisijie/gopub/app/service"
+	"github.com/xingjianwei/gopub/app/entity"
+	"github.com/xingjianwei/gopub/app/libs"
+	"github.com/xingjianwei/gopub/app/service"
 	"strconv"
 )
 
