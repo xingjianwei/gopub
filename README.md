@@ -45,6 +45,11 @@
 	$ mv gopub--linux-amd64.tar.gz docker/
 	$ docker-compose up
 
+```
+docker run --name  mysql-gopub  -e MYSQL_ROOT_PASSWORD=123456 -e  MYSQL_DATABASE=gopub -v $PWD/docker/my-custom.cnf:/etc/mysql/conf.d/my-custom.cnf  -v $PWD/docker/mysql:/var/lib/mysql  -v $PWD/install.sql:/docker-entrypoint-initdb.d/install.sql -p 3306:3306  -d mysql:latest
+
+```
+
 ## 界面截图
 
 ![gopub](https://raw.githubusercontent.com/lisijie/gopub/master/screenshot.png)

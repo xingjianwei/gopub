@@ -4,3 +4,5 @@ logs/*.log
 *.tar.gz
 *.bak
 .DS_Store
+.vscode
+docker/mysql
